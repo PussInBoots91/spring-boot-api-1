@@ -47,6 +47,13 @@ public class EmployeeController {
 	@GetMapping(path = "/employee/{id}")
 	@ResponseStatus(code = HttpStatus.OK)
 	public void deleteEmployee(@PathVariable Integer id){
+
+	if(true){
+		}
 		empDao.deleteById(id);
+	}
+
+	private String method(){
+		System.out.println("simple method");
 	}
 }
