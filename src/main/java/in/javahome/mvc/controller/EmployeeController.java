@@ -55,5 +55,6 @@ public class EmployeeController {
 
 	private String method(){
 		System.out.println("simple method");
+return null;
 	}
 }
